@@ -160,7 +160,7 @@ int main() {
     SetConsoleOutputCP(CP_UTF8);
 
     List lst;
-
+    //Автоматически добавляется 7 рандомных чисел %47
     for (int i = 0; i < 7; ++i) {push_front(lst,rand()%47);}
 
     print(lst);
